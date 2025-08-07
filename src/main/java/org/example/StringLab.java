@@ -85,10 +85,10 @@ public class StringLab {
         boolean isEqual2 = str1.equals(str3);
         boolean isEqualIgnoreCase = str1.equalsIgnoreCase(str2);
 
-        System.out.println("Predicted output: true");
+        System.out.println("Predicted output: false");
         System.out.println("\"Java\".equals(\"java\"): " + isEqual1);
 
-        System.out.println("\nPredicted output: false");
+        System.out.println("\nPredicted output: true");
         System.out.println("\"Java\".equals(\"Java\"): " + isEqual2);
 
         System.out.println("\nPredicted output: true");
